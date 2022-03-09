@@ -1,0 +1,124 @@
+.c-sidebar {
+  width: 300px;
+}
+@media screen and (max-width: 1023px) {
+  .c-sidebar {
+    width: 450px;
+    margin: 50px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-sidebar {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-sidebar__new {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+.c-sidebar__new img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.c-sidebar__new p {
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 15px;
+  line-height: 2em;
+}
+.c-sidebar__link {
+  border: 1px solid #E84F82;
+  color: #E84F82;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.c-sidebar__new-title {
+  font-size: 18px !important;
+  color: #E84F82 !important;
+  border-bottom: 1px solid #BBBBBB;
+  line-height: 1em !important;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1023px) {
+  .c-sidebar__new-title {
+    font-size: 16px !important;
+  }
+}
+.c-sidebar__profile {
+  margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .c-sidebar__profile {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+.c-sidebar__profile-title {
+  color: #E84F82 !important;
+  border-bottom: 1px solid #BBBBBB;
+  line-height: 1em !important;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1023px) {
+  .c-sidebar__profile-title {
+    font-size: 16px;
+  }
+}
+.c-sidebar__profile-img {
+  width: 200px;
+  display: block;
+  margin: 10px auto 0;
+}
+@media screen and (max-width: 1023px) {
+  .c-sidebar__profile-img {
+    width: 150px;
+  }
+}
+.c-sidebar__profile-text {
+  font-size: 13px;
+  line-height: 2em;
+}
+.c-sidebar__search {
+  margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .c-sidebar__search {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+.c-sidebar__search form {
+  margin-top: 15px;
+}
+.c-sidebar__search-title {
+  font-size: 18px !important;
+  color: #E84F82 !important;
+  border-bottom: 1px solid #BBBBBB;
+  line-height: 1em !important;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1023px) {
+  .c-sidebar__search-title {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=c-sidebar.css.map */

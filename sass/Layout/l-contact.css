@@ -1,0 +1,58 @@
+.page-id-215 .article-wrap {
+  text-align: center;
+}
+
+.page-id-215 p {
+  text-align: initial;
+}
+
+.page-id-215 h2 {
+  width: 280px;
+}
+
+.wpcf7-form {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.wpcf7-form p:nth-of-type(5) {
+  width: 269px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-id-215 .article-wrap {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .page-id-215 h2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wpcf7-form {
+    width: 300px;
+  }
+
+  .wpcf7-form p:nth-of-type(5) {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .page-id-215 h2 {
+    width: 40vw;
+  }
+}
+.wpcf7-form-control {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.your-name, .wpcf7-email, .wpcf7-text, .your-message {
+  margin-top: 10px;
+}/*# sourceMappingURL=l-contact.css.map */

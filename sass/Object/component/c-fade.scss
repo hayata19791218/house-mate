@@ -1,0 +1,78 @@
+.c-fade{
+    &__left{
+        animation-name: left-fadein;
+        animation-duration:1s;
+        transition:.5s;
+        @keyframes left-fadein{
+            0%{
+                transform:translateX(-130px);
+            }
+            50%{
+                transform:translateX(200px);
+            }
+            100%{
+                transform:translateX(0px);   
+            } 
+        }
+    }
+    &__right{
+        animation-name: right-fadein;
+        animation-duration:2s;
+        transition:.5s;
+        @keyframes right-fadein{
+            0%{
+                transform:translateX(130px);
+            }
+            100%{
+                transform:translateX(0px);
+            }
+        }
+    }
+    &__right2{
+        animation-name: right-fadein;
+        animation-duration:2s;
+        transition:.5s;
+        @keyframes right-fadein{
+            0%{
+                transform:translateX(130px);
+            }
+            100%{
+                transform:translateX(0px);
+            }
+        }
+        @media screen and (max-width:767px){
+            transform:none;
+            animation:none;
+            transition:initial;
+        }
+    }
+    &__bottom{
+        animation-name: bottom-fadein;
+        animation-duration:.6s;
+        transition:.5s;
+        @keyframes bottom-fadein{
+            0%{
+                transform:translateY(130px);
+            }
+            50%{
+                transform:translateY(-100px);
+            }
+            100%{
+                transform:translateY(0px);
+            }
+        }
+    }
+    &__top{
+        animation-name: top-fadein;
+        animation-duration:1.5s;
+        transition:.5s;
+        @keyframes top-fadein{
+            0%{
+                transform:translateY(-130px);
+            }
+            100%{
+                transform:translateY(0px);
+            }
+        }
+    }
+}

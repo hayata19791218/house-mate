@@ -1,0 +1,138 @@
+.l-archive {
+  width: 1000px;
+  margin: 40px auto;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-archive {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-archive {
+    width: 90%;
+  }
+}
+
+.l-top-main-news__field {
+  width: 960px;
+  margin: 41px auto 81px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-top-main-news__field {
+    width: 750px;
+  }
+}
+
+.l-top-main-news__line {
+  height: 3px;
+  background-color: #E84F82;
+  width: 58px;
+  margin: 4px auto 21px;
+}
+
+.l-top-main-news__english {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-top-main-news__english {
+    font-size: 20px;
+  }
+}
+
+.l-top-main-news__wrap {
+  width: 170px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-top-main-news__wrap {
+    width: 120px;
+  }
+}
+
+.l-top-main-news__japanese {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-top-main-news__japanese {
+    font-size: 30px;
+  }
+}
+
+.l-top-main-news__archive-line {
+  width: 302px;
+  background-color: #E84F82;
+  height: 2px;
+  margin-top: 13px;
+}
+
+.l-top-main-news__archive-title {
+  color: #E84F82;
+  font-size: 20px;
+}
+
+.l-top-main-news__archive-yajirushi {
+  color: #E84F82;
+  width: 41px;
+}
+
+.l-top-main-news__trapezoid-link {
+  margin-top: 21px;
+}
+
+.l-top-main-news__archive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-top-main-news__archive-wrap {
+  width: 302px;
+  margin-top: 21px;
+  margin: 26px auto 0;
+  display: block;
+}
+
+.u-js-tab {
+  background-color: #fff;
+  width: 160px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 18px;
+  color: #E84F82;
+  border: 3px solid #E84F82;
+  border-bottom: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.u-js-tab__active {
+  color: #fff;
+  background-color: #E84F82;
+}
+
+.u-js-content {
+  display: none;
+}
+
+.u-js-show {
+  display: block;
+}
+/*# sourceMappingURL=l-archive.css.map */

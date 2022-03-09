@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+  .c-burger {
+    top: 32px;
+    right: 15px;
+    width: 39px;
+    height: 39px;
+    position: fixed;
+    z-index: 7;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-burger__bar {
+    width: 20px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    text-shadow: 3px 3px 11px #333;
+  }
+}
+.c-burger__top {
+  top: 0;
+}
+.c-burger__middle {
+  top: 8px;
+}
+.c-burger__bottom {
+  top: 16px;
+}
+
+.close .c-burger__top {
+  transform: translate(-50%, 8px) rotate(405deg);
+}
+.close .c-burger__middle {
+  opacity: 0;
+}
+.close .c-burger__bottom {
+  transform: translate(-50%, -8px) rotate(-405deg);
+}/*# sourceMappingURL=c-burger.css.map */

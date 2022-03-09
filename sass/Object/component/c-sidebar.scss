@@ -1,0 +1,108 @@
+.c-sidebar{
+    width: 300px;
+    @media screen and (max-width:1023px){
+        width: 450px;
+        margin: 50px auto;
+    }
+    @media screen and (max-width:767px){
+        width: 100%;
+    }
+    &__new{
+        @media screen and (max-width:767px){
+            width: 80%;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:50px;
+        }
+        img{
+            width: 150px;
+            height:auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 13px;
+            color:#000;
+            margin-bottom: 15px;
+            line-height:2em;
+        }
+    }
+    &__link{
+        border:1px solid #E84F82;
+        color:#E84F82;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        text-align: center;
+        width: 250px;   
+        margin-left:auto;
+        margin-right:auto;
+        font-weight: bold;
+    }
+    &__new-title{
+        font-size: 18px!important;
+        color:#E84F82!important;
+        border-bottom:1px solid #BBBBBB;
+        line-height:1em!important;
+        padding-bottom: 5px;
+        font-weight: bold;
+        @media screen and (max-width:1023px){
+            font-size: 16px!important;
+        }
+    }
+    &__profile{
+        margin-top: 50px;
+        @media screen and (max-width:767px){
+            width: 80%;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:50px;
+        }
+    }
+    &__profile-title{
+        color:#E84F82!important;
+        border-bottom:1px solid #BBBBBB;
+        line-height:1em!important;
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        @media screen and (max-width:1023px){
+            font-size: 16px;
+        }
+    }
+    &__profile-img{
+        width: 200px;
+        display: block;
+        margin:10px auto 0;
+        @media screen and (max-width:1023px){
+            width: 150px;
+        }
+    }
+    &__profile-text{
+        font-size: 13px;
+        line-height:2em;
+    }
+    &__search{
+        margin-top: 50px;
+        @media screen and (max-width:767px){
+            width: 80%;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:50px;
+        }
+        form{
+            margin-top: 15px;
+        }
+    }
+    &__search-title{
+        font-size: 18px!important;
+        color:#E84F82!important;
+        border-bottom:1px solid #BBBBBB;
+        line-height:1em!important;
+        padding-bottom: 5px;
+        font-weight: bold;
+        @media screen and (max-width:1023px){
+            font-size: 16px;
+        }
+    }
+}

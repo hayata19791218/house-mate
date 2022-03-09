@@ -1,0 +1,42 @@
+.c-burger{
+    @media screen and (max-width:767px){
+        top: 32px;
+        right: 15px;
+        width: 39px;
+        height: 39px;
+        position: fixed;
+        z-index:7;
+    }
+    &__bar{
+        @media screen and (max-width:767px){
+            width: 20px;
+            height: 2px;
+            display: block;
+            position:absolute;
+            left:50%;
+            transform:translateX(-50%);
+            background-color:#000;
+            text-shadow: 3px 3px 11px #333;
+        }
+    }
+    &__top{
+        top:0;
+    }
+    &__middle{
+        top:8px;
+    }
+    &__bottom{
+        top:16px;
+    }
+}
+.close{
+    .c-burger__top{
+        transform:translate(-50%,8px) rotate(405deg);
+    }
+    .c-burger__middle{
+        opacity:0;
+    }
+    .c-burger__bottom{
+        transform:translate(-50%,-8px) rotate(-405deg);
+    }
+}

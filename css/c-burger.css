@@ -1,0 +1,63 @@
+@media screen and (max-width: 767px) {
+  .c-burger {
+    top: 32px;
+    right: 15px;
+    width: 39px;
+    height: 39px;
+    position: fixed;
+    z-index: 7;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .c-burger__bar {
+    width: 20px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #fff;
+    text-shadow: 3px 3px 11px #333;
+  }
+}
+
+.c-burger__top {
+  top: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.c-burger__middle {
+  top: 8px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.c-burger__bottom {
+  top: 16px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.close .c-burger__top {
+  -webkit-transform: translate(-50%, 8px) rotate(405deg);
+          transform: translate(-50%, 8px) rotate(405deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.close .c-burger__middle {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.close .c-burger__bottom {
+  -webkit-transform: translate(-50%, -8px) rotate(-405deg);
+          transform: translate(-50%, -8px) rotate(-405deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+/*# sourceMappingURL=c-burger.css.map */

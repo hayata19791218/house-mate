@@ -1,0 +1,29 @@
+.c-pagination{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 41%;
+    .current{
+        color:#fff!important;
+        background-color:#E84F82;
+    }
+    .dots{
+        background:none;
+        border:none;
+        color:#E84F82;
+    }
+    .page-numbers{
+        width: 30px;
+        text-align: center;
+        color:#E84F82;
+        border:1px solid #E84F82;
+        padding: 5px;
+        @media screen and (max-width:1023px){
+            font-size: 14px;
+        }
+    }
+    .page-numbers:nth-child(n+2){
+        margin-left: 1%;
+    }
+}
+

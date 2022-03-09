@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,UAAU,EAAE,IAAI,CAAA,UAAU;EAC1B,WAAW,EAAE,CAAC,CAAA,UAAU;CAC3B;;AACD,AAAA,UAAU,CAAA;EACN,aAAa,EAAE,IAAI,CAAA,UAAU;CAChC",
+    "sources": [
+        "../sass/Object/Utility/u-margin.scss"
+    ],
+    "names": [],
+    "file": "u-margin.css"
+}

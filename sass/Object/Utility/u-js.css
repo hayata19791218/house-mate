@@ -1,0 +1,132 @@
+.u-js-topbtn {
+  position: fixed;
+  right: 126px;
+  bottom: 20%;
+  font-size: 20px;
+  color: #fff;
+  background-color: #3451E2;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 5;
+}
+@media screen and (max-width: 767px) {
+  .u-js-topbtn {
+    bottom: 6%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    right: 40px;
+  }
+}
+
+.u-js-btnactive {
+  opacity: 1;
+  visibility: visible;
+}
+
+.u-js-none {
+  display: none;
+}
+
+.u-js-initial1 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial2 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial3 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial4 {
+  transform: translateY(140px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial5 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial6 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial7 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial8 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-initial9 {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.u-js-fadein {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 1s;
+}
+
+.u-js-fadein2 {
+  opacity: 1;
+  transform: translateX(0px);
+  transition-duration: 1s;
+}
+
+.u-js-fadein3 {
+  transform: translate(-50%);
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+
+.u-js-color {
+  color: #3351E2;
+  font-weight: bold;
+  transition-duration: 0.7s;
+  text-shadow: none;
+}
+
+.u-js-opacity {
+  opacity: 0.2;
+}
+
+.u-js-menu {
+  width: 100vw;
+  height: 200vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.8;
+  -webkit-animation-name: initial;
+          animation-name: initial;
+}/*# sourceMappingURL=u-js.css.map */

@@ -1,0 +1,29 @@
+.l-404{
+    min-height:48vh;
+    text-align: center;
+    margin-top: 300px;
+    &__title{
+        color:#E84F82;
+        font-size: 50px;
+        @media screen and (max-width:1023px){
+            font-size: 35px;
+        }
+    }
+    &__subtitle{
+        color:#E84F82;
+        font-size: 20px;
+        margin-top: 30px;
+        @media screen and (max-width:1023px){
+            font-size: 16px;
+        }
+    }
+    &__link{
+        color:#E84F82;
+        @media screen and (max-width:1023px){
+            font-size: 14px;
+        }
+    }
+    p{
+        margin-top: 30px;
+    }
+}

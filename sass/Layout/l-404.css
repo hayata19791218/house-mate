@@ -1,0 +1,35 @@
+.l-404 {
+  min-height: 48vh;
+  text-align: center;
+  margin-top: 300px;
+}
+.l-404__title {
+  color: #E84F82;
+  font-size: 50px;
+}
+@media screen and (max-width: 1023px) {
+  .l-404__title {
+    font-size: 35px;
+  }
+}
+.l-404__subtitle {
+  color: #E84F82;
+  font-size: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1023px) {
+  .l-404__subtitle {
+    font-size: 16px;
+  }
+}
+.l-404__link {
+  color: #E84F82;
+}
+@media screen and (max-width: 1023px) {
+  .l-404__link {
+    font-size: 14px;
+  }
+}
+.l-404 p {
+  margin-top: 30px;
+}/*# sourceMappingURL=l-404.css.map */

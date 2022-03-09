@@ -1,0 +1,194 @@
+.l-category{
+    width: 60%;
+    margin:30px auto 0;
+    &__field{
+        display: flex;
+        justify-content:space-between;
+    }
+    &__main{
+        width: 80%;
+        border:1px solid #F3F3F3;
+        padding: 25px;
+        h2{
+            font-size: 22px;
+            border-bottom:3px double #2294D5;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color:#5e6c77;
+        }
+        h3{
+            font-size: 18px;
+            border-bottom:1px solid #2294D5;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color:#5e6c77;
+        }
+    }
+    &__category{
+        background-color:#2294D5;
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+        color:#fff;
+        display: inline-block;
+        border-radius:20px;
+    }
+    &__title{
+        font-size: 28px;
+        line-height:1.3em;
+        margin-top: 15px;
+        color:#5e6c77;
+    }
+    &__content{
+        color:#5e6c77;
+        line-height:1.7em;
+        margin-bottom: 30px;
+    }
+    &__area{
+        display: flex;
+        margin-top: 25px;
+        width: 228px;
+        margin-left:auto;
+        margin-bottom: 60px;
+    }
+    &__date-wrap{
+        font-size: 12px;
+        color:#bbb;
+    }
+    &__update-wrap{
+        font-size: 12px;
+        color:#bbb;
+        margin-left: 20px;
+    }
+    &__aside{
+        width: 35%;
+    }
+    &__tag{
+        background-color:#2294D5;
+        font-size: 20px;
+        color:#fff;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    &__tag-list{
+        font-size: 13px;
+        color:#5F6C77;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    &__recent-wrap{
+        margin-top: 30px;
+    }
+    &__recent-title{
+        background-color:#2294D5;
+        font-size: 20px;
+        color:#fff;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    &__recent-content{
+        display: flex;
+        border-bottom:1px solid #f2f2f2;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        transition-duration:.7s;
+        &:hover{
+            transform:translateX(10px);
+            transition-duration:.7s;
+        }
+    }
+    &__recent-tag{
+        font-size: 13px;
+        background-color:#2294D5;
+        color:#fff;
+        padding: 4px;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        line-height: 10px;
+        border-radius: 10px;
+    }
+    &__recent-name{
+        font-size: 13px;
+        color:#5F6C77;
+        margin-left: 5px;
+        line-height:1.3em;
+    }
+    &__category-wrap{
+        margin-top: 30px;
+    }
+    &__category-title{
+        background-color:#2294D5;
+        font-size: 20px;
+        color:#fff;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    &__category-content{
+        display: flex;
+        border-bottom:1px solid #f2f2f2;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        &:hover{
+            transform:translateX(10px);
+            transition-duration:.7s;
+        }
+    }
+    &__category-tag{
+        font-size: 13px;
+        background-color:#2294D5;
+        color:#fff;
+        padding: 4px;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        line-height: 10px;
+        border-radius: 10px;
+    }
+    &__category-name{
+        font-size: 15px;
+        color:#5F6C77;
+        margin-left: 5px;
+        line-height:1.3em;
+    }
+    &__introduce-wrap{
+        margin-top: 30px;
+    }
+    &__introduce-title{
+        background-color:#2294D5;
+        font-size: 20px;
+        color:#fff;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    &__introduce-img{
+        width: 150px;
+        display: block;
+        margin:0 auto;
+    }
+    &__introduce-content{
+        line-height:1.3em;
+        font-size: 13px;
+        color:#5F6C77;
+    }
+    &__sns-title{
+        font-size: 13px;
+        text-align: center;
+        color:#2294D5;
+        margin: 40px 0 15px 0;
+    }
+    &__twitter{
+        color:#2294D5;
+        font-size: 30px;
+    }
+    &__instagram{
+        color:#2294D5;
+        font-size: 30px;
+    }
+    &__sns-field{
+        width: 80px;
+        margin:0 auto;
+        display: flex;
+        justify-content:space-between;
+    }
+}
